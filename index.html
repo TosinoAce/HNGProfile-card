@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ace Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./images/icons8-github.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="profile-card-wrapper">
+      <div id="card-img-wrapper">
+        <img
+          src="./images/Profile-image.jpg"
+          alt="Profile Image"
+          data-testid="profilePicture"
+        />
+      </div>
+      <div id="card-text-container">
+        <h2 data-testid="fullName">JOSEPH, Oluwatosin</h2>
+        <h3 data-testid="jobTitle">Senior Frontend Developer</h3>
+        <p id="Bio" data-testid="shortBio">
+          A web development enthusiast, a Librarian by study and a Lover of God,
+          Music and Food.
+        </p>
+        <div class="contact-details">
+          <img src="./images/icons8-email.svg" alt="Email" />
+          <p data-testid="emailAddress">tosinjoereal301@gmail.com</p>
+        </div>
+        <div class="contact-details">
+          <img src="./images/icons8-location-pin.svg" alt="location" />
+          <p data-testid="currentLocation">Lagos, Nigeria</p>
+        </div>
+        <div id="social-links">
+          <a href="https://ng.linkedin.com/in/joseph-oluwatosin-a48139195" data-testid="socialLinks">
+            <img src="./images/icons8-linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/TosinoAce" data-testid="socialLinks">
+            <img src="./images/icons8-github.svg" alt="Github" />
+          </a>
+          <a href="https://x.com/Ace_nailedit" data-testid="socialLinks">
+            <img src="./images/icons8-x.svg" alt="Twitter" />
+          </a>
+        </div>
+      </div>
+      <span id="currentTime" data-testid="currentTimeUTC"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
